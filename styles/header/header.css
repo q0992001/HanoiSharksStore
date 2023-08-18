@@ -1,0 +1,51 @@
+.top-nav{
+  background-color: #fff;
+  height: 50px;
+}
+
+.nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+ul {
+  font-family:sans-serif;
+  font-size: 21px;
+  list-style-type: none;
+  background-color: black;
+  display: flex;
+  height: 100px;
+  width: 10000px;
+  color: #fff;
+  padding-top: 10px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  order: 1;
+}
+
+li.logo img {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 30px;
+  padding-right: 800px;
+}
+
+.nav-item {
+  padding-left: 50px;
+  order: 2;
+  margin-left: 20px;
+  display: flex;
+  align-items: center; /* Căn giữa dọc nội dung của li */
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
