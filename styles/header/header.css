@@ -17,11 +17,10 @@ ul {
   list-style-type: none;
   background-color: black;
   display: flex;
-  height: 100px;
+  height: 80px;
   width: 10000px;
   color: #fff;
   padding-top: 10px;
-  padding-right: 100px;
   padding-bottom: 10px;
 }
 
@@ -30,10 +29,11 @@ ul {
 }
 
 li.logo img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   padding-bottom: 30px;
-  padding-right: 800px;
+  padding-left: 30px;
+  padding-right: 780px;
 }
 
 .nav-item {
